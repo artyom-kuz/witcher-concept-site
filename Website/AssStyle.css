@@ -1,0 +1,218 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: thewitchermedium, sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+.header {
+	background: url("WebMedia/headerBackground.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+}
+
+.header .container {
+	position: relative;
+	top: 100px;
+}
+
+.header h1 {
+	color: #eeb524;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 1.1;
+    text-shadow: 0px 1px 7px rgba(0,0,0,0.67);
+    display: inline-block;
+    border-top: 3px solid #eeb524;
+    border-bottom: 3px solid #eeb524;
+}
+
+@media (min-width: 850px) {
+	.header h1 {
+		font-size: 70px;
+	}
+}
+
+.header p {
+	color: #eeb524;
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.btn {
+	color: #eeb524;
+	background: #000;
+	padding: 10px 40px;
+	text-decoration: none;
+	transition: background .6s;
+}
+
+.nav {
+	background: #000;
+	height: 80px;
+	width: 100%;
+}
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li {
+	color: #eeb524;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .6s;
+}
+
+.urbox {
+	display: flex;
+	align-items: center;
+}
+
+.btn:hover, .nav ul li:hover {
+	background: #e34234;
+	cursor: pointer;
+	transition: background .6s;
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.page2 {
+	background: url("WebMedia/backgroundSwords.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #eaeaea;
+}
+
+.page3 {
+	background: url("WebMedia/backgroundYen.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #eaeaea;
+}
+
+.page4 {
+	background: url("WebMedia/backgroundWitches.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #eaeaea;
+}
+
+h1 {
+	color: #eeb524;
+
+}
+
+.page5 {
+	background: url("WebMedia/backgroundMedallion.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #eaeaea;	
+}
+
+.page5 p {
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.page5 h2 {
+	padding-top: 2.5%;
+ }
+
+footer {
+	background: #000;
+}
+
+
+.footer { 
+  background: #000;
+  height: 100%; 
+  padding-bottom: 50px;
+}
+
+.footer p { 
+  color: #eeb524;
+  font-size: 14px;  
+  line-height: 20px;
+  margin: 0;  
+  text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #eeb524;
+}
+
+.signs {
+	padding-right: 10px;
+	vertical-align: middle;
+
+}
+
+.textContainer {
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+}
+
+ol img {
+	width: 50%;
+	height: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+dt::before {
+       content: "Q: ";
+   } 
+   dd::before {
+       content: "  A: ";
+   }
+
+@font-face {
+    font-family: 'thewitchermedium';
+    src: url('thewitcher-webfont.woff2') format('woff2'),
+         url('thewitcher-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.carousel  {
+	width: 60%;
+	height: 60%
+
+}
+
+.navbar-brand {
+	width: 2%
+}
+
+.brand {
+	width: 35.25px;
+	height: 35.25px;
+}
