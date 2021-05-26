@@ -1,2 +1,2 @@
-# witcher-concept-site
-Concept of a Witcher tutorial website for Introduction to Audio-Visual Science and Multimedia
+# Witcher Mod Tutorial Website
+Concept of a Witcher Modding tutorial website for a module called Introduction to Audio-Visual Science and Multimedia. 
